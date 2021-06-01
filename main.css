@@ -95,7 +95,7 @@ body{
     font-size: 4.5em; 
     margin-bottom: 0.2em;
   }
-  .glow{
+ /* .glow{
     color: white;
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
@@ -108,7 +108,7 @@ body{
     to {
       text-shadow: 0 0 20px #08ff1c, 0 0 30px #08ff1c, 0 0 40px #08ff1c, 0 0 50px #08ff1c, 0 0 60px #08ff1c, 0 0 70px #08ff1c, 0 0 80px #08ff1c;
     }
-  }
+  } */
 .box p{
     font-size: 1.2em;
     color: var(--sec-font-color);
