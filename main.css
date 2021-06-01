@@ -137,7 +137,7 @@ body{
     z-index: -1;
 
 }
-/*@media(max-width:1250px){
+@media(max-width:1250px){
     .main img{width: 25em;right: 0;}
 }
 @media(max-width:1000px){
@@ -170,9 +170,9 @@ body{
         left: 0;
         z-index: 100;
         padding: 1.2em;
-     /*   clip-path: polygon(0 0,100% 0,100% 0,0 0);
-        transition: clip-path .4s; */
-  /*  }
+        clip-path: polygon(0 0,100% 0,100% 0,0 0);
+        transition: clip-path .4s; 
+   }
     .checkBtn:checked ~ol {
         clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
     }
@@ -203,4 +203,4 @@ body{
     .main{
         height: 450px;
     }
-} */
+} 
