@@ -201,7 +201,9 @@ a:-webkit-any-link {
     }
 }
 @media(max-width:900px){
-
+    body{
+        overflow-y: hidden;
+    }
     .main img{
         width: 70%;
         align-content: center;
@@ -214,7 +216,9 @@ a:-webkit-any-link {
     }
 }
 @media (max-width:600px){
-    
+    body{
+        overflow-y: hidden;
+    }
     .main img{
         width: 100%;
     }
