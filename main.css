@@ -138,12 +138,15 @@ body{
 
 }
 @media(max-width:1250px){
-    .main img{width: 25em;right: 0;}
+    .main img{width: 50%;right: 0px;
+     margin-right: -70px;
+    }
+
 }
 @media(max-width:1000px){
     body{font-size: 14px;}
-    .main img{width: 35em;top: 80px;}
-    .main{align-items: flex-end;}
+    .main img{width: 100%;top: 10px; margin-right: 1em;}
+    .main{align-items:flex-end;}
     .checkBtn{
         display: block;
         width: 25px;
@@ -154,13 +157,13 @@ body{
         -webkit-appearance: none;
     }
     .checkBtn::before{
-        content: '\f0c9';
+        content: '☰';
         font-family: 'Font Awesome 5 Free';
         font-weight: 700;
         font-size: 1.9em;
         color: var(--sec-font-color);
     }
-    .checkBtn:checked::before{content: '\f00d';}
+    .checkBtn:checked::before{content: '✕';}
     .nav ol{
         position: absolute;
         width: 100%;
@@ -188,12 +191,19 @@ body{
 }
 @media(max-width:900px){
     .main img{
-        width: 30em;
+        width: 70%;
+        align-content: center;
+    }
+    .box{
+        position: absolute;
     }
 }
 @media (max-width:600px){
     .main img{
-        width: 22em;
+        width: 100%;
+    }
+    .main .box{
+        margin-bottom: -5em;
     }
 }
 @media (max-width:400px){
@@ -203,4 +213,8 @@ body{
     .main{
         height: 450px;
     }
+    .main .box{
+        margin-bottom: -15em;
+    }
+    
 } 
