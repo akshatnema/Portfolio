@@ -149,7 +149,9 @@ a:-webkit-any-link {
 
 }
 @media(max-width:1000px){
-    body{font-size: 14px;}
+    body{font-size: 14px;
+        overflow-y: hidden;
+    }
     .main img{width: 100%;top: 10px; margin-right: 1em;}
     .main{align-items:flex-end;}
     .checkBtn{
@@ -160,6 +162,10 @@ a:-webkit-any-link {
         position: relative;
         appearance: none;
         -webkit-appearance: none;
+    }
+    .nav{
+        width: 100%;
+        overflow-y: hidden;
     }
     .checkBtn::before{
         content: '☰';
@@ -195,17 +201,25 @@ a:-webkit-any-link {
     }
 }
 @media(max-width:900px){
+
     .main img{
         width: 70%;
         align-content: center;
+    }
+    .glow{
+        animation: none;
     }
     .box{
         position: absolute;
     }
 }
 @media (max-width:600px){
+    
     .main img{
         width: 100%;
+    }
+    .glow{
+        animation: none;
     }
     .main .box{
         margin-bottom: -5em;
@@ -216,7 +230,11 @@ a:-webkit-any-link {
 }
 @media (max-width:400px){
     body{
+        overflow-y: hidden;
         font-size: 10px;
+    }
+    .glow{
+        animation: none;
     }
     .checkBtn{
         margin-right: 10px;
@@ -230,5 +248,6 @@ a:-webkit-any-link {
     .main .box{
         margin-bottom: -15em;
     }
+
     
 } 
