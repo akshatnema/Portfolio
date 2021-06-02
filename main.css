@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-shadow:border-box;
+    box-sizing:border-box;
 }
 :root{
     --font:'Montserrat',sans-serif;
@@ -142,6 +142,7 @@ a:-webkit-any-link {
     z-index: -1;
 
 }
+
 @media(max-width:1250px){
     .main img{width: 50%;right: 0px;
      margin-right: -70px;
@@ -150,7 +151,6 @@ a:-webkit-any-link {
 }
 @media(max-width:1000px){
     body{font-size: 14px;
-        overflow-y: hidden;
     }
     .main img{width: 100%;top: 10px; margin-right: 1em;}
     .main{align-items:flex-end;}
@@ -165,7 +165,6 @@ a:-webkit-any-link {
     }
     .nav{
         width: 100%;
-        overflow-y: hidden;
     }
     .checkBtn::before{
         content: '☰';
@@ -201,9 +200,7 @@ a:-webkit-any-link {
     }
 }
 @media(max-width:900px){
-    body{
-        overflow-y: hidden;
-    }
+
     .main img{
         width: 70%;
         align-content: center;
@@ -216,9 +213,6 @@ a:-webkit-any-link {
     }
 }
 @media (max-width:600px){
-    body{
-        overflow-y: hidden;
-    }
     .main img{
         width: 100%;
     }
@@ -234,7 +228,6 @@ a:-webkit-any-link {
 }
 @media (max-width:400px){
     body{
-        overflow-y: hidden;
         font-size: 10px;
     }
     .glow{
